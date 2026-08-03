@@ -1,10 +1,12 @@
 # Snake Game — Tugas Besar Praktikum Algoritma dan Struktur Data
 
-Game Snake berbasis Python + Pygame yang mengimplementasikan struktur data **Stack** pada mekanik ular (push saat makan makanan, pop saat menabrak jebakan).
+Game Snake yang mengimplementasikan struktur data **Stack** pada mekanik ular (push saat makan makanan, pop saat menabrak jebakan). Tersedia versi desktop (Python + Pygame) dan versi web (HTML5 Canvas + JavaScript).
 
 ## Demo
 
 > Mainkan langsung di browser: **[Play Now](https://rhizu05.github.io/Snake-Game-py)**
+>
+> _(Link itch.io: `https://<username>.itch.io/snake-game`)_
 
 ---
 
@@ -45,11 +47,21 @@ Game ini mengimplementasikan **Stack (Tumpukan)**:
 
 ## Menjalankan Secara Lokal
 
-### Prasyarat
+### Versi Web (browser)
+Buka `index.html` di browser, atau jalankan server lokal:
+
+```bash
+python -m http.server
+# buka http://localhost:8000
+```
+
+### Versi Desktop (Python)
+
+#### Prasyarat
 - Python 3.10+
 - pip
 
-### Langkah
+#### Langkah
 
 ```bash
 # Clone repo
@@ -67,8 +79,9 @@ python main.py
 
 ## Tech Stack
 
-- **Python 3** — bahasa pemrograman utama
-- **Pygame** — library game
+- **Python 3** — bahasa pemrograman utama (versi desktop)
+- **Pygame** — library game desktop
+- **HTML5 Canvas + JavaScript** — versi web (tanpa dependency, berjalan di browser)
 
 ---
 

@@ -15,7 +15,7 @@ env/
 # Temporary files
 tempCodeRunnerFile.py
 
-# pygbag build output
+# Staging folder build (dibuat oleh GitHub Actions)
 build/
 web/
 dist/
