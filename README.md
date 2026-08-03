@@ -60,7 +60,7 @@ cd [repo-name]
 pip install pygame
 
 # Jalankan game
-python tb_snake_fix.py
+python main.py
 ```
 
 ---
