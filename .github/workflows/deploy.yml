@@ -25,13 +25,13 @@ jobs:
         run: pip install pygbag
 
       - name: Build with pygbag
-        run: pygbag --build tb_snake_fix.py
+        run: pygbag --build --archive tb_snake_fix.py
 
-      - name: Upload artifact for itch.io
+      - name: Upload itch.io archive
         uses: actions/upload-artifact@v4
         with:
-          name: snake-game-web
-          path: ./build/web
+          name: itch-io-snake-game
+          path: ./build/web.zip
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
