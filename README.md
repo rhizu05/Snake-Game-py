@@ -5,8 +5,6 @@ Game Snake yang mengimplementasikan struktur data **Stack** pada mekanik ular (p
 ## Demo
 
 > Mainkan langsung di browser: **[Play Now](https://rhizu05.github.io/Snake-Game-py)**
->
-> _(Link itch.io: `https://<username>.itch.io/snake-game`)_
 
 ---
 
@@ -47,31 +45,17 @@ Game ini mengimplementasikan **Stack (Tumpukan)**:
 
 ## Menjalankan Secara Lokal
 
-### Versi Web (browser)
-Buka `index.html` di browser, atau jalankan server lokal:
-
+### Versi Web
 ```bash
 python -m http.server
 # buka http://localhost:8000
 ```
 
-### Versi Desktop (Python)
-
-#### Prasyarat
-- Python 3.10+
-- pip
-
-#### Langkah
-
+### Versi Desktop
 ```bash
-# Clone repo
-git clone https://github.com/[username]/[repo-name].git
-cd [repo-name]
-
-# Install dependensi
+git clone https://github.com/rhizu05/Snake-Game-py.git
+cd Snake-Game-py
 pip install pygame
-
-# Jalankan game
 python main.py
 ```
 
@@ -79,8 +63,7 @@ python main.py
 
 ## Tech Stack
 
-- **Python 3** — bahasa pemrograman utama (versi desktop)
-- **Pygame** — library game desktop
+- **Python 3 + Pygame** — versi desktop
 - **HTML5 Canvas + JavaScript** — versi web (tanpa dependency, berjalan di browser)
 
 ---
