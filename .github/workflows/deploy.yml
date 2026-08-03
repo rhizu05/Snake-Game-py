@@ -27,7 +27,7 @@ jobs:
           PYTHONUTF8: "1"
 
       - name: Build with pygbag
-        run: pygbag --build --archive --disable-sound-format-error tb_snake_fix.py
+        run: pygbag --build --archive tb_snake_fix.py
 
       - name: Upload itch.io archive
         uses: actions/upload-artifact@v4
